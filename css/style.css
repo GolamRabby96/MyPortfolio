@@ -1,0 +1,580 @@
+
+a,h1,h2,h3,h4,h5,h6,img,li,ul,img{
+	box-sizing: border-box;
+}
+.mobomanu{
+	visibility: hidden;
+}
+.main_container{
+
+}
+
+
+.profile_image img{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	border-radius: 2%;
+	margin-top: -30px;
+	margin-left: 20px;
+}
+.image_side_frame{
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  transform: rotate(-15deg);
+  left: -83%;
+  top: -50%;
+  background-color: #0075ad;
+}
+.image_side_frame2{
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  transform: rotate(-12deg);
+  left: -83%;
+  top: -30%;
+  background-color:#72b626;	
+}
+
+/*textsection.........*/
+.text_section{
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-left: 9%;
+	padding-top: 10%;
+}
+.text_section .text h1 span {
+  color: #72b626;
+  font-weight: 600;
+}
+.text_section .text h1 {
+  color: #0075ad;
+	font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+}
+
+.text_section .text p {
+    display: block;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.custombutton {
+	background-color: #72b626;
+	color: white;
+}
+.poppins-font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.open-sans-font {
+  font-family: 'Open Sans', sans-serif;
+}
+.side_manu_bar{
+	margin: 0px;
+	padding: 0px;
+}
+.manu_icon{
+	text-decoration: none;
+	margin-top: 70%;
+	list-style: none;
+}
+.manu_icon li i {
+	margin-bottom: 40px;
+	margin-left: 50px;
+	background-color: #72b626;
+	padding: 15px;
+	border-radius: 50%;
+	color: #fff;
+}
+.manu_icon li i:hover {
+	background-color: #0075ad;
+}
+
+
+/*.....................................*/
+/*.........................................*/
+/*..................ABOUT ME START.............*/
+/*...................................................*/
+.relativeforabout {
+	position: relative;
+}
+.otherside_manu_bar{
+	position: fixed;
+	width: 50px;
+	height: 40%;
+	top: 170px;
+	right: 150px;
+	z-index: 100;
+}
+.othemanu_icon li {
+	list-style: none;
+}
+.othemanu_icon li i {
+	margin-bottom: 40px;
+	margin-left: 50px;
+	background-color: #72b626;
+	padding: 15px;
+	border-radius: 50%;
+	color: #fff;
+}
+.othemanu_icon li i:hover {
+	background-color: #0075ad;
+}
+.otherside_manu_bar_active a i {
+	background-color: #0075ad;
+	color: #ffffff;
+}
+
+
+.about_container {
+
+}
+.aboutme_text {
+	text-align: center;
+
+}
+.aboutme_text h1 {
+	font-weight: 700;
+	color: #72b626;
+	font-size: 52px;
+	padding-top: 50px;
+	font-family: 'Ultra', serif;
+}
+.aboutme_text h1 span {
+	color: #0075ad;
+}
+.aboutme_text p {
+	font-weight: 600;
+	font-size: 22px;
+	text-transform: uppercase;
+	color :#a1a1a1;
+}
+
+.peosonal_info{
+	font-family: 'Monoton', cursive;	
+}
+.peosonal_info h1{
+	color: #0075ad;
+}
+.peosonal_info h1 span{
+	color: #72b626;
+}
+.info_text_section{
+	margin-top: 30px;
+}
+.info_inside ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.info_inside ul li{
+	margin-bottom: 20px;
+	color: black;
+	font-family: 'Niconne', cursive;
+}
+.info_inside ul li span {
+	color: #767676;
+}
+.info_image {
+	box-sizing: border-box;
+}
+.info_image img{
+    width: 232px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: -11px;
+    margin-left: 38px;
+}
+/*........info_down_bar......*/
+.info_down_bar {
+	background-color: #c6c2c28a;
+	width: 50%;
+	height: 1px;
+	margin: auto;
+	margin-top: 5%;
+}
+/*.........My skill ..............*/
+.my_skill_text {
+	margin: auto;
+	margin-top: 5%;
+}
+.my_skill_text h1{
+	text-align: center;
+	color: #595757;
+	font-weight: 700;
+	font-family: 'Monoton', cursive;	
+}
+/*..................*/
+.table_skill {
+ width: 100%;
+ margin: auto;
+}
+/* .table_skill tr {
+} */
+.table_skill tr th{
+	padding-bottom: 10px;
+}
+.language_name {
+	width: 20%;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-weight: 500;
+	border-bottom: 1px solid #e7e7e7;
+}
+.peesentage {
+	width: 80%;
+}
+.progress-bar {
+    color: #ffffff;
+    background-color: #0075ad;
+    font-weight: 600;
+}
+/*...........exprence Inside...............*/
+.exprence_inside i{
+	padding: 5px;
+	background-color: #0075ad;
+	color: #fff;
+	border-radius: 50%;
+}
+
+.exprence_inside h4 {
+	padding-left: 40px;
+	color: #464646;
+}
+.exprence_inside span {
+	color: #464646;
+}
+.exprence_inside .sidebar {
+    position: absolute;
+    width: 1Px;
+    height: 50PX;
+    background-color: #999695;
+    top: 25PX;
+    left: 27PX;
+}
+.bottombar {
+	background-color: #999695;
+	width: 70%;
+	height: 1px;
+}
+/*...........................*/
+/*...........................*/
+/*............Portfolio...............*/
+/*...........................*/
+/*...........................*/
+.portfolio_div {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.over_portfolio {
+	position: absolute;
+	background-color:#0000005c;
+	width: 92%;
+	height: 200px;
+	top:-320px;
+	visibility: hidden;
+}
+.over_portfolio p {
+	position: absolute;
+	color: rgb(45, 255, 220);
+	font-weight: 700;
+	top: 40%;
+	left:25%;
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+}
+/*  */
+.portfolio_div img {
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.portfolio_div:hover .over_portfolio {
+	visibility:visible;
+	transition: ease .5s all;
+	top: 0px;
+}
+/*....................*/
+.client_say {
+	margin-top: 80px;
+	text-align: left;
+	color: #0075ad;
+	font-weight: 600;
+	font-family: 'Niconne', cursive;
+}
+.Slider_down_section{
+	background-color: #72b626;
+	padding-bottom: 5px;
+	border-radius: 4px;
+}
+.carousel-item img {
+	border-radius: 4px;
+}
+.carousel-control-prev-icon {
+    background-image: url(../image/slider/l.png) !important;
+}
+.carousel-control-next-icon {
+    background-image: url(../image/slider/r.png) !important;
+ }
+ /*.....................................*/
+ /*.....................................*/
+ /*.............Contaact section.........*/
+ /*.....................................*/
+ 
+ /* .contact_information {
+
+ } */
+  .contact_information h2{
+ 	color: #72b626;
+ 	font-family: 'Monoton', cursive;
+ }
+ .contact_information p {
+  	padding-left: 30px;
+  	font-weight: 600;
+  	font-family: 'Open Sans', sans-serif;
+  	color: #464646;
+ }
+ .contact_information ul li {
+ 	list-style: none;
+ 	padding-bottom: 10px;
+ 	color: #0075ad;
+ }
+  .contact_information ul li span,a{
+  	color: gray;
+  	  font-family: 'Poppins', sans-serif;
+  }
+
+
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+.text_section{
+	margin-left: 10px;
+	margin-top: 0px;
+	padding-left: 3%;
+	padding-top: 2%;
+}
+.otherside_manu_bar{
+	position: fixed;
+	width: 50px;
+	height: 40%;
+	top: 120px;
+	right: 120px;
+}
+
+.info_image img{
+    width: 170px;
+    border-radius: 2px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.info_inside ul li{
+	margin-bottom: 10px;
+	color: black;
+	font-family: 'Niconne', cursive;
+}
+.info_inside ul li span {
+	color: #767676;
+}
+
+.progress {
+    background-color: #fff;
+}
+
+.exprence_inside h4 {
+	padding-left: 20px;
+	font-size: 18px;
+}
+.my_skill_text h1 {
+	font-size: 28px;
+}
+.table_skill {
+    width: 95%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.laptop_view {
+	visibility: hidden;
+}
+.profile_image img {
+	width: 100%;
+    height: 100%;
+    border-radius: 8%;
+    margin-top: 100px;
+    margin-left: 318px;
+}
+
+.text_section{
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-left: 0%;
+    padding-top: 55%;
+}
+.text_section .text h1 {
+    color: #0075ad;
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 600;
+    margin: 18px 0 10px;
+}
+.text_section .text p {
+    display: block;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+}
+.text_section .text a{
+    margin-left: 20px;
+}
+.otherside_manu_bar{
+	visibility: hidden;
+}
+.mobomanu{
+	visibility: visible;
+}
+.aboutme_text h1{
+	font-size: 48px;
+}
+.info_image img{
+    width: 170px;
+    border-radius: 2px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.info_inside ul li{
+	margin-bottom: 10px;
+	color: black;
+	font-family: 'Niconne', cursive;
+}
+.info_inside ul li span {
+	color: #767676;
+}
+.info_inside ul li {
+	font-size: 15px;
+}
+
+.progress {
+    background-color: #fff;
+}
+
+.exprence_inside h4 {
+	padding-left: 20px;
+	font-size: 16px;
+}
+.my_skill_text h1 {
+	font-size: 28px;
+}
+.table_skill {
+    width: 95%;
+}
+.info_first_name {
+	display: block;
+}
+.contact_information p{
+	font-size: 22px;
+}
+.contact_information ul li span {
+	font-size: 23px;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.laptop_view {
+		visibility: hidden;
+	}
+	.profile_image img {
+		width: 100%;
+		height: 100%;
+		border-radius: 2%;
+		margin-top: 100px;
+		margin-left: 20px;
+	}
+
+	.text_section text {
+		padding-left: 5%;
+		padding-top: 7%;
+	}
+
+	.text_section .text h1 {
+		color: #0075ad;
+		font-size: 34px;
+		line-height: 45px;
+		font-weight: 600;
+		margin: 18px 0 10px;
+	}
+	.text_section .text p {
+		display: block;
+		line-height: 30px;
+		font-family: 'Open Sans', sans-serif;
+		margin-left: 20px;
+	}
+	.text_section .text a{
+		margin-left: 20px;
+	}
+	.otherside_manu_bar{
+		visibility: hidden;
+	}
+	.mobomanu{
+		visibility: visible;
+	}
+	.aboutme_text h1{
+		font-size: 42px;
+	}
+	.info_image img{
+		width: 170px;
+		border-radius: 2px;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.info_inside ul li{
+		margin-bottom: 10px;
+		color: black;
+		font-family: 'Niconne', cursive;
+	}
+	.info_inside ul li span {
+		color: #767676;
+	}
+	.info_inside ul li {
+		font-size: 15px;
+	}
+
+	.progress {
+		background-color: #fff;
+	}
+
+	.exprence_inside h4 {
+		padding-left: 20px;
+		font-size: 16px;
+	}
+	.my_skill_text h1 {
+		font-size: 28px;
+	}
+	.table_skill {
+		width: 95%;
+	}
+}
+/**.......................................*/
+
+@media (min-width: 0px) and (max-width: 575.98px) {
+	.otherside_manu_bar{
+		visibility: hidden;
+	}
+	.profile_image img {
+		margin-top: 100px;
+	}
+	.mobomanu{
+		visibility: visible;
+	}
+	.aboutme_text h1{
+		font-size: 36px;
+	}
+}

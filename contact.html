@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Me</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" />
+		<script src="https://smtpjs.com/v3/smpt.js"></script>
+		<script src="mail.js"></script>
+	</head>
+	<body class="relativeforabout">
+		<!-- ...........this is mobile view section.................. -->
+		<div class="mobomanu">
+			<nav
+				class="navbar navbar-expand-lg sticky-top navbar-light navbar-dark bg-dark"
+			>
+				<div class="container">
+					<a class="navbar-brand" href="#">GR</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="aboutme.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="portfolio.html">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html"
+									>Contact<span class="sr-only">(current)</span></a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">blog</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- ...........this is mobile view section.................. -->
+		<!-- ............side menubar fixd srart.............. -->
+		<div class="otherside_manu_bar">
+			<ul class="othemanu_icon">
+				<li class="icon-box active">
+					<a href="index.html"><i class="fa fa-home"></i></a>
+				</li>
+				<li class="icon-box">
+					<a href="aboutme.html"><i class="fa fa-user"></i></a>
+				</li>
+				<li class="icon-box">
+					<a href="portfolio.html"><i class="fa fa-briefcase"></i></a>
+				</li>
+				<li class="icon-box otherside_manu_bar_active">
+					<a href="contact.html"><i class="fa fa-envelope-open"></i></a>
+				</li>
+				<li class="icon-box">
+					<a href="blog.html"><i class="fas fa-pen-alt"></i></a>
+				</li>
+			</ul>
+		</div>
+		<!-- .................................................................. -->
+		<!-- .......................Contact.................................... -->
+		<!-- .................................................................. -->
+		<div class="container about_container">
+			<div class="row">
+				<div class="col aboutme_text">
+					<h1><span>CONTACT</span></h1>
+					<p>Get In Touch</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="offset-md-1"></div>
+				<div class="col contact_information">
+					<h2>Don't be shy !</h2>
+					<p>
+						Feel free to get in touch with me. I am always open to discussing
+						new projects, creative ideas or opportunities to be part of your
+						visions.
+					</p>
+					<ul>
+						<li>
+							<i class="fa fa-envelope-open"></i>
+							<span>golamrabbynwu@gmail.com</span>
+						</li>
+						<li>
+							<i class="fas fa-mobile-alt"></i> <span>+8801624540092</span>
+						</li>
+						<li>
+							<i class="fa fa-facebook-official" aria-hidden="true"></i>
+							<span><a href="">golamrabby</a></span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-12">
+					<div class="mt-5 d-flex justify-content-center">
+						<form class="col-md-6">
+							<div class="form-group">
+								<label for="exampleFormControlInput1">Your Email address</label>
+								<input
+									id="emailname"
+									type="email"
+									class="form-control"
+									id="exampleFormControlInput1"
+									placeholder="name@example.com"
+								/>
+							</div>
+							<div class="form-group">
+								<textarea
+									id="usersay"
+									class="form-control"
+									id="exampleFormControlTextarea1"
+									rows="3"
+									placeholder="your valuable words"
+								></textarea>
+							</div>
+							<button
+								onclick="sendEmail()"
+								type="submit"
+								class="btn btn-sm btn-info col-12"
+							>
+								Submit
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="offset-md-1"></div>
+				<br />
+				<br />
+				<br />
+			</div>
+		</div>
+
+		<!-- <-- JavaScript Link Section ----->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/dbd12f4466.js"></script>
+		<script type="text/javascript" src="js/fontawesome.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+
+		<script>
+			// document.getElementById("emailname").onblur = function () {
+			// 	handleBlur();
+			// };
+			// function handleBlur(e) {
+			// 	console.log("call");
+			// 	console.log(e.target.value);
+			// }
+
+			function sendEmail() {
+				useremail = document.getElementById("emailname").value;
+				usersay = document.getElementById("usersay").value;
+				console.log(useremail, usersay);
+				Email.send({
+					Host: "smtp.gmail.com",
+					Username: "help line",
+					Password: "test12345",
+					To: "helplinebd365@gmail.com",
+					From: "helplinebd365@gmail.com",
+					Subject: "<email subject>",
+					Body: usersay,
+				}).then((message) => alert("mail sent successfully"));
+			}
+		</script>
+	</body>
+</html>
